@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+.next
+.env
+*.log
+cypress/videos
+cypress/screenshots 
