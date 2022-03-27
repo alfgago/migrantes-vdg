@@ -41,7 +41,7 @@ export const ArticleStyles = styled.div`
         margin: 1rem auto;
         line-height: 1;
 
-        @media only screen and (max-width: 767px) {
+        @media only screen and (max-width: 768px) {
             font-size: 2rem;
         }
     }
@@ -53,7 +53,7 @@ export const ArticleStyles = styled.div`
             font-size: 3.3rem;
         }
 
-        @media only screen and (max-width: 767px) {
+        @media only screen and (max-width: 768px) {
             font-size: 2.5rem;
         }
     }
@@ -70,6 +70,10 @@ export const ArticleStyles = styled.div`
         }
     }
 
+    .twitter-tweet.twitter-tweet-rendered {
+        margin: 1rem auto !important;
+    }
+
     iframe {
         display: block;
         margin: auto;
@@ -77,8 +81,8 @@ export const ArticleStyles = styled.div`
     }
 
     .iframe-infogram {
-        max-width: 800px;
-        width: 800px;
+        max-width: 768px;
+        width: 100%;
         margin: 1rem auto;
     }
 
@@ -113,7 +117,7 @@ export const ArticleStyles = styled.div`
             margin-top: 3rem;
         }
 
-        @media only screen and (max-width: 767px) {
+        @media only screen and (max-width: 768px) {
             font-size: 1.3em;
             margin-top: 2rem;
             &:before {

@@ -58,7 +58,7 @@ export const HeaderStyles = styled.div`
                 br { display: none; }
             }
 
-            @media only screen and (max-width: 767px) {
+            @media only screen and (max-width: 768px) {
                 font-size: 2rem;
             }
         }
@@ -93,6 +93,10 @@ export const HeaderStyles = styled.div`
                 margin-top: 1rem;
             }
 
+            @media only screen and (max-width: 768px) {
+                justify-content: center;
+            }
+
             img {
                 display: block;
                 max-height: 3rem;
@@ -108,8 +112,8 @@ export const HeaderStyles = styled.div`
                     max-height: 2rem;
                 }
 
-                @media only screen and (max-width: 767px) {
-                    max-height: 1.4rem;
+                @media only screen and (max-width: 768px) {
+                    max-height: 1.25rem;
                 }
             }
         }
@@ -127,6 +131,21 @@ export const HeaderStyles = styled.div`
         @media only screen and (max-width: 1200px) {
             padding: 0;
             height: 90vw;
+        }
+
+        &:after {
+            content: 'Presione un país en el mapa para navegar al artículo respectivo.';
+            position: absolute;
+            width: 180px;
+            font-size: 12px;
+            color: #fff;
+            top: .5rem;
+            right: 30%;
+
+            @media only screen and (max-width: 768px) {
+                top: .5rem;
+                right: 1rem;
+            }
         }
         
         .elements {
@@ -148,6 +167,10 @@ export const HeaderStyles = styled.div`
         svg {
             display: inline-block;
             height: 100%;
+
+            @media only screen and (max-width: 768px) {
+                width: 140vw;
+            }
 
             #svgmap {
                 g {
