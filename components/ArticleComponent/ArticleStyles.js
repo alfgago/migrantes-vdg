@@ -70,6 +70,13 @@ export const ArticleStyles = styled.div`
         }
     }
 
+    p.excerpt {
+        font-style: italic;
+        font-size: 1.1rem;
+        padding: 0 1rem;
+        border-left: .5rem solid #1F847E;
+    }
+
     .twitter-tweet.twitter-tweet-rendered {
         margin: 1rem auto !important;
     }
