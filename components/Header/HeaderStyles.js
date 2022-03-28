@@ -5,6 +5,7 @@ export const HeaderStyles = styled.div`
     padding: 0;
     width: 100%;
     height: 100vh;
+    max-height: 40vw;
 
     @media only screen and (max-width: 1200px) {
         height: auto;
