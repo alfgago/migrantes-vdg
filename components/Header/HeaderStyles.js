@@ -52,7 +52,7 @@ export const HeaderStyles = styled.div`
         }
 
         .title {
-            font-size: 3.5rem;
+            font-size: 3.2rem;
             font-weight: 900;
             line-height: 1;
             margin-bottom: .5rem;

@@ -27,8 +27,8 @@ export default function Home(props) {
           <meta property="og:locale" content="es_ES" />
         </Head>
         <main className="main-container">
-          <Header/>
-          <ArticleComponent title={title} featuredImage={featuredImage} body={BodyComponent} isHome={true} />
+          <Header lang={'es'}/>
+          <ArticleComponent lang={'es'} title={title} featuredImage={featuredImage} body={BodyComponent} isHome={true} />
           <Footer/>
         </main>
       </div>

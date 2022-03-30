@@ -18,9 +18,9 @@ const Header = ({lang = 'es'}) => {
             <div className='entry-header'>
                 <div className='container'>
                     {lang == 'es' ?
-                        <div className='title'>The Paths <br />de la migración <br />centroamericana</div>
+                        <div className='title'>Los caminos <br />de la migración <br />centroamericana</div>
                         :
-                        <div className='title'>The New Paths of <br /> Central American <br />migration</div>
+                        <div className='title'>The new paths <br />of Central American <br />migration</div>
                     }
                     <div className='excerpt'>{lang == 'es' ? description : enDescription}</div>
                     <div className='logos'>

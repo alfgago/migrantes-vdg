@@ -83,8 +83,8 @@ export default function Nicaragua(props) {
           <meta property="og:type" content="article" />
         </Head>
         <main className="main-container">
-          <ArticleComponent title={title} featuredImage={featuredImage} body={BodyComponent} autor={autor} medio={medio} fotografia={fotografia} />
-          <Header/>
+          <ArticleComponent lang={'es'} title={title} featuredImage={featuredImage} body={BodyComponent} autor={autor} medio={medio} fotografia={fotografia} />
+          <Header lang={'es'}/>
           <Footer/>
         </main>
       </div>
