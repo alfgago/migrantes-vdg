@@ -10,6 +10,7 @@ export const HeaderStyles = styled.div`
     @media only screen and (max-width: 1200px) {
         height: auto;
         background: #697F8E;
+        max-height: none;
     }
 
     .background {
@@ -115,6 +116,16 @@ export const HeaderStyles = styled.div`
 
                 @media only screen and (max-width: 768px) {
                     max-height: 1.25rem;
+                }
+            }
+
+            .ocote, .contracorriente {
+                transform: scale(1.3);
+                margin-top: -10px;
+
+                @media only screen and (max-width: 768px) {
+                    transform: scale(1.3);
+                    margin-top: 5px;
                 }
             }
         }

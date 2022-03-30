@@ -24,6 +24,7 @@ export default function Home(props) {
           <title>{title}</title>
           <meta name="description" content={description} />
           <meta property="og:image" content={featuredImage} />
+          <meta property="og:locale" content="es_ES" />
         </Head>
         <main className="main-container">
           <Header/>

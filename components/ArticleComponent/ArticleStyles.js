@@ -70,6 +70,22 @@ export const ArticleStyles = styled.div`
         }
     }
 
+    .change-locale {
+        margin: auto;
+        text-align: center;
+        margin-top: -46px;
+        margin-bottom: 15px;
+    }
+    
+    .change-locale a {
+        padding: 0.5rem;
+        margin-left: 1rem;
+        border: 1px solid #000;
+        border-radius: 50%;
+        font-size: .8rem;
+        display: inline-block;
+    }
+
     p.excerpt {
         font-style: italic;
         font-size: 1.1rem;
