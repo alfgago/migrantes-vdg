@@ -22,7 +22,7 @@ const ArticleComponent= ({title, featuredImage, body, autor, medio, fotografia, 
                     <Link href='/'><a>ES</a></Link>
                 </div>
                 {!isHome && <img className='featured' src={featuredImage} />}
-                <h1>{title}</h1>
+                <h1 dangerouslySetInnerHTML={ {__html: title} }></h1>
                 <div className='meta'>
                     <div>{autor}</div>
                     {fotografia && <div>{fotografia} </div>}
