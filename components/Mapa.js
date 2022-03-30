@@ -14,7 +14,8 @@ const Mapa = ({highlight = '', lang = ''}) => {
     }
 
     const navigateTo = (path) => {
-        router.push(lang + '/' + path)
+        let url = lang == 'es' ? '/' + path : '/en/' + path
+        router.push(url)
         /* setTimeout(() => {
             scrollTo()
         }, 100) */
