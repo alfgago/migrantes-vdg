@@ -9,7 +9,6 @@ const Header = ({lang = 'es'}) => {
         <HeaderStyles id="header">
             <div className="mapa">
                 <div className='background'></div>
-                <div className='background2'></div>
                 <div className='elements'>
                     <Mapa lang={lang}/>
                     <img src="/elementos.png"/>
