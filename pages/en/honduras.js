@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ArticleComponent from '@/components/ArticleComponent';
+import { NextSeo } from 'next-seo';
 
 export default function Honduras(props) {
 
@@ -123,13 +124,24 @@ export default function Honduras(props) {
 
   return (
       <div>
-        <Head>
-          <title>{title}</title>
-          <meta name="description" content={description} />
-          <meta property="og:image" content={featuredImage} />
-          <meta property="og:locale" content="en_EN" />
-          <meta property="og:type" content="article" />
-        </Head>
+        <NextSeo
+          title={title}
+          description={description}
+          canonical="https://migrantes.vozdeguanacaste.com/"
+          openGraph={{
+            title: title,
+            description: description,
+            images: [
+              { url: featuredImage }
+            ],
+            site_name: title,
+          }}
+          twitter={{
+            handle: '@handle',
+            site: '@site',
+            cardType: 'summary_large_image',
+          }}
+        />
         <main className="main-container">
           <ArticleComponent lang={'en'} title={title} featuredImage={featuredImage} body={BodyComponent} autor={autor} medio={medio} fotografia={fotografia} />
           <Header lang={'en'}/>
