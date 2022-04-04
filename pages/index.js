@@ -3,7 +3,6 @@ import { NextSeo } from 'next-seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ArticleComponent from '@/components/ArticleComponent';
-import { NextSeo } from 'next-seo';
 
 export default function Home(props) {
 
