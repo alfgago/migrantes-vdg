@@ -12,11 +12,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {router.isReady && router.pathname ? (
-          <PageTransition timeout={1000} classNames="page-transition">
             <Layout>
               <Component {...pageProps} />
             </Layout>
-          </PageTransition>
       ) : ''}
     </>
   )
