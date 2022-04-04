@@ -7,7 +7,7 @@ export default function Nicaragua(props) {
 
   const title = 'Estados Unidos es el nuevo destino urgente de los nicas que huyen de la represión de Ortega';
   const description = 'Para entender el éxodo hondureño hay que revisar la historia de la última década de este país: un golpe de Estado, un país saqueado y pobre, y un narcoestado.';
-  const featuredImage = '/banner-nicaragua.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-nicaragua.jpg'
   const autor = "Texto y fotos: Divergentes";
   const fotografia = false;
   const medio = '<a target="_blank" href="https://twitter.com/DivergentesCA">@DivergentesCA</a>';

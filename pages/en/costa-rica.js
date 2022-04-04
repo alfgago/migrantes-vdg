@@ -7,7 +7,7 @@ export default function CostaRica(props) {
 
   const title = 'Xenophobia, the second pandemic to spread in Costa Rica';
   const description = 'A United Nations study revealed that in 13 months of the pandemic, more than 180,000 xenophobic comments were registered in Costa Rica, most of them against Nicaraguans. Nicaraguans face the dilemma of living with discrimination or returning to Nicaragua to face jail or death.';
-  const featuredImage = '/banner-costarica.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-costarica.jpg'
   const autor = "Written by: Vladimir Vásquez";
   const medio = '<a target="_blank" href="https://twitter.com/VozdeGuanacaste">@VozdeGuanacaste</a>';
   const fotografia = "Pictures by: César Arroyo";

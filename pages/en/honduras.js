@@ -7,7 +7,7 @@ export default function Honduras(props) {
 
   const title = 'The fear of kidnapping does not stop the exodus from a tormented country';
   const description = 'To understand the exodus of the Honduran people, we must review the history of the last decade of this country: a coup d&apos;&eacute;tat, a looted and poor country, and a narco-state.';
-  const featuredImage = '/banner-honduras.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-honduras.jpg'
   const autor = "Written by: Allan Bu";
   const fotografia = "Photographs by: Jorge Cabrera";
   const medio = '<a target="_blank" href="https://twitter.com/ContraC_HN">@ContraC_HN</a>';

@@ -7,7 +7,7 @@ export default function Nicaragua(props) {
 
   const title = 'The United States is the new destination for Nicaraguans urgently fleeing Ortega&apos;s repression';
   const description = 'Driven by state violence and the lack of opportunities under the dictatorship of Daniel Ortega, thousands of Nicaraguans have decided to risk their lives and migrate north.';
-  const featuredImage = '/banner-nicaragua.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-nicaragua.jpg'
   const autor = "Text and photos: Divergentes";
   const fotografia = false;
   const medio = '<a target="_blank" href="https://twitter.com/DivergentesCA">@DivergentesCA</a>';

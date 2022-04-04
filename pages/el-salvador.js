@@ -15,7 +15,7 @@ export default function CostaRica(props) {
 
   const title = 'Los exiliados del gobierno de Nayib Bukele';
   const description = 'Al menos 50 personas salieron de El Salvador en el &uacute;ltimo a&ntilde;o por persecuci&oacute;n pol&iacute;tica.';
-  const featuredImage = '/banner-salvador.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-salvador.jpg'
   const autor = "Texto: Loida Martínez Avelar";
   const medio = '<a target="_blank" href="https://twitter.com/RevistaFactum">@RevistaFactum</a>';
   const fotografia = "Fotografía: Salvador Mel&eacute;ndez y Gerson N&aacute;jera";

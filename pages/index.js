@@ -7,7 +7,7 @@ export default function Home(props) {
 
   const title = 'Los nuevos caminos de la migración centroamericana';
   const description = 'La migración en Centroamérica como fenómeno constante no ha cambiado en las últimas décadas. Lo que sí está cambiando son los motivos por los que la gente se va y la ruta para huir de la región.';
-  const featuredImage = '/principal.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/principal.jpg'
 
   const BodyComponent = (
       <div>

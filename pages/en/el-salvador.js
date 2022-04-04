@@ -15,7 +15,7 @@ export default function CostaRica(props) {
 
   const title = 'Exiles from Nayib Bukele’s government';
   const description = 'At least 50 people left El Salvador in the last year due to political persecution. Before these people fled, they were being followed and given judicial orders. In the case of women, gang members made them direct threats, according to data collected by non-governmental organizations. In addition to violence and poverty, political persecution has also become a reason to flee the Central American country.';
-  const featuredImage = '/banner-salvador.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-salvador.jpg'
   const autor = "Written by: Loida Martínez Avelar";
   const medio = '<a target="_blank" href="https://twitter.com/RevistaFactum">@RevistaFactum</a>';
   const fotografia = "Photographs by: Salvador Mel&eacute;ndez y Gerson N&aacute;jera";

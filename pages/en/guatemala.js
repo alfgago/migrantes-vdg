@@ -7,7 +7,7 @@ export default function CostaRica(props) {
 
   const title = 'Guatemala: The limbo for transsexual migrants waiting for refuge';
   const description = 'Guatemala is a transit country for migrants seeking to reach the United States, but it is also a hub for those seeking refuge. Hundreds of migrants remain trapped while they waiting to be considered as refugees. The chances of receiving a positive response are limited, especially for the LGTBIQ+ community.';
-  const featuredImage = '/banner-guatemala.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-guatemala.jpg'
   const autor = "Written by: Jody García";
   const medio = '<a target="_blank" href="https://twitter.com/AgenciaOcote">@AgenciaOcote</a>';
   const fotografia = "Photographs by: Sandra Sebastián";

@@ -7,7 +7,7 @@ export default function CostaRica(props) {
 
   const title = 'Xenofobia, la segunda pandemia que se propagó en Costa Rica';
   const description = 'Un estudio de Naciones Unidas reveló que en 13 meses de pandemia se registraron más de 180 mil comentarios xenofóbicos en Costa Rica.';
-  const featuredImage = '/banner-costarica.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-costarica.jpg'
   const autor = "Texto: Vladimir Vásquez";
   const medio = '<a target="_blank" href="https://twitter.com/VozdeGuanacaste">@VozdeGuanacaste</a>';
   const fotografia = "Fotografía: César Arroyo";

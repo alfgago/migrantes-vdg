@@ -7,7 +7,7 @@ export default function CostaRica(props) {
 
   const title = 'Guatemala: el limbo para las migrantes trans que esperan refugio';
   const description = 'Guatemala es un pa&iacute;s de paso para migrantes que buscan llegar hasta Estados Unidos, pero tambi&eacute;n es un nudo para quienes buscan refugio.';
-  const featuredImage = '/banner-guatemala.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-guatemala.jpg'
   const autor = "Texto: Jody García";
   const medio = '<a target="_blank" href="https://twitter.com/AgenciaOcote">@AgenciaOcote</a>';
   const fotografia = "Fotografía: Sandra Sebastián";

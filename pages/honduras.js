@@ -7,7 +7,7 @@ export default function Honduras(props) {
 
   const title = 'El temor al secuestro no detiene el éxodo de un país atormentado';
   const description = 'Para entender el éxodo hondureño hay que revisar la historia de la última década de este país: un golpe de Estado, un país saqueado y pobre, y un narcoestado.';
-  const featuredImage = '/banner-honduras.jpg'
+  const featuredImage = 'https://migrantes.vozdeguanacaste.com/banner-honduras.jpg'
   const autor = "Texto: Allan Bu";
   const fotografia = "Fotografía: Jorge Cabrera";
   const medio = '<a target="_blank" href="https://twitter.com/ContraC_HN">@ContraC_HN</a>';
