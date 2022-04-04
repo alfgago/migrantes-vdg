@@ -21,24 +21,12 @@ export default function Home(props) {
 
   return (
       <div>
-        <NextSeo
-          title={title}
-          description={description}
-          canonical="https://migrantes.vozdeguanacaste.com/"
-          openGraph={{
-            title: title,
-            description: description,
-            images: [
-              { url: featuredImage }
-            ],
-            site_name: title,
-          }}
-          twitter={{
-            handle: '@handle',
-            site: '@site',
-            cardType: 'summary_large_image',
-          }}
-        />
+        <Head>
+          <title>Los nuevos caminos de la migración centroamericana</title>
+          <meta name="description" content={'La migración en Centroamérica como fenómeno constante no ha cambiado en las últimas décadas. Lo que sí está cambiando son los motivos por los que la gente se va y la ruta para huir de la región.'} />
+          <meta property="og:image" content='https://migrantes.vozdeguanacaste.com/principal.jpg' />
+          <meta property="og:locale" content="es_ES" />
+        </Head>
         <main className="main-container">
           <Header lang={'es'}/>
           <ArticleComponent lang={'es'} title={title} featuredImage={featuredImage} body={BodyComponent} isHome={true} />
